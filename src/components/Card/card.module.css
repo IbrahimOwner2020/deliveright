@@ -1,0 +1,57 @@
+.Card {
+    position: relative;
+    width: 11rem;
+    height: 15rem;
+    background: #FFFFFF;
+    box-shadow: 2px 23px 47px 3px rgba(181, 205, 251, 0.2);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    margin: 1rem 0;
+    padding: .5rem;
+}
+
+.Card:nth-child(2) {
+    margin-top: 10rem;
+}
+
+.Card:nth-child(1) svg {
+    width: 3rem;
+    height: 3rem;
+    fill: #FF7A00;
+    align-self: center;
+    margin: 2.5rem 0;
+}
+
+.Card:nth-child(2) svg,
+.Card:nth-child(3) svg  {
+    padding: .6rem;
+    width: 3rem;
+    height: 3rem;
+    fill: #fff;
+    background-color: #FF7A00;
+    border-radius: 50%;
+    align-self: center;
+    margin: 2.5rem 0;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.Card span {
+    color: #000;
+    font-size: 1.4rem;
+    margin: 1rem;
+}
+
+.card2 {
+    margin-top: 5rem;
+}
+
+.cards {
+    margin: 1.5rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
